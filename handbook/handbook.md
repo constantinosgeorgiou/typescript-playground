@@ -1,3 +1,8 @@
+```shell
+rm *.js *.js.map; clear; tsc --target ES2015 classes.ts && node classes.js
+```
+
+
 - enable `--strictNullChecks`
 - enable `--noImplicitThis` flag to point out incorrect use of `this` variable.
 
